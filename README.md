@@ -1,5 +1,9 @@
 # gitbook-plugin-anchor-nav-x
 
+## Thanks
+
+extend from [**gitbook-plugin-gitbook-plugin-anchor-navigation-ex**](https://github.com/zq99299/gitbook-plugin-anchor-navigation-ex)
+
 ## how to use
 
 if you not install gitbook-cli ?
@@ -18,7 +22,7 @@ how to config plugin ?
 
 add this plugin to book.json
 
-```json
+```js
 
 {
   "plugins": [
@@ -33,6 +37,4 @@ add this plugin to book.json
 ## more
 more pluginConfig to see [here](https://github.com/zq99299/gitbook-plugin-anchor-navigation-ex/blob/master/doc/config.md)
 
-## Thanks
 
-extend from [**gitbook-plugin-gitbook-plugin-anchor-navigation-ex**](https://github.com/zq99299/gitbook-plugin-anchor-navigation-ex)
