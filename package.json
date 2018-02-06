@@ -1,27 +1,29 @@
 {
-  "name": "gitbook-plugin-anchor-navigation-ex",
-  "version": "1.0.10",
-  "description": "Supports two navigation mode, title, anchor effect is the default theme, style, follow the website",
+  "name": "gitbook-plugin-anchor-nav-x",
+  "version": "1.0.0",
+  "description": "extend from gitbook-plugin-anchor-navigation-ex, add tooltipMode to display different UI, thanks for the author about zhuqiang,yuan1994",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zq99299/gitbook-plugin-anchor-navigation-ex.git"
+    "url": "git+https://github.com/TerenYeung/gitbook-plugin-anchor-nav-x.git"
   },
   "keywords": [
     "gitbook",
     "plugin",
-    "anchor-navigation-ex",
-    "ex"
+    "anchor",
+    "nav",
+    "anchor-nav-ex",
+    "x"
   ],
-  "author": "zhuqiang,yuan1994",
+  "author": "terenyeung",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/zq99299/gitbook-plugin-anchor-navigation-ex/issues"
+    "url": "https://github.com/TerenYeung/gitbook-plugin-anchor-nav-x.git/issues"
   },
-  "homepage": "https://github.com/zq99299/gitbook-plugin-anchor-navigation-ex#readme",
+  "homepage": "https://github.com/TerenYeung/gitbook-plugin-anchor-nav-x.git#readme",
   "dependencies": {
     "cheerio": "*",
     "github-slugid": "1.0.1",

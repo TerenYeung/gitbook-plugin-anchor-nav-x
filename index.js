@@ -4,7 +4,8 @@ require('./assets/lib/log');
 module.exports = {
     book: {
         assets: "./assets",
-        css: ["style/plugin.css"]
+        css: ["style/plugin.css"],
+        js: ["lib/handler.js"],
     },
     hooks: {
         "init": function () {

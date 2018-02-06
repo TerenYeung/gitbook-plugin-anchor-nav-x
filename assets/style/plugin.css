@@ -19,6 +19,7 @@
     max-height: 70%;
     overflow-y: auto;
     overflow-x: hidden;
+    border-radius: 5px;
 }
 
 #anchor-navigation-ex-navbar ul {
@@ -29,8 +30,8 @@
     list-style-type: none;
 }
 
-#anchor-navigation-ex-navbar:hover ul {
-    display: block;
+.tooltip-show {
+    display: block !important;
 }
 
 #anchor-navigation-ex-navbar ul li a {
@@ -90,6 +91,7 @@
     font-size: 12px;
     padding: 5px 10px;
     color: #364149;
+    border-radius: 5px;
 }
 /*对应官网皮肤主题颜色*/
 .book.color-theme-1 #anchorNavigationExGoTop {
