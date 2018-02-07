@@ -1,8 +1,8 @@
 /** 浮动导航 */
+
 #anchor-navigation-ex-navbar {
     background-color: #fafafa;
     border: 1px solid rgba(0, 0, 0, .07);
-    border-radius: 1px;
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     background-clip: padding-box;
@@ -23,15 +23,20 @@
 }
 
 #anchor-navigation-ex-navbar ul {
-    display: none;
+    display: block;
     text-align: left;
     padding-right: 10px;
     padding-left: 10px;
     list-style-type: none;
 }
 
+#anchor-navigation-ex-navbar .fa {
+    font-size: 15px;
+    vertical-align: middle;
+}
+
 .tooltip-show {
-    display: block !important;
+    display: none !important;
 }
 
 #anchor-navigation-ex-navbar ul li a {
@@ -55,6 +60,7 @@
 }
 
 /*对应官网皮肤主题颜色*/
+
 .book.color-theme-1 #anchor-navigation-ex-navbar {
     background-color: #111111;
     border-color: #7e888b;
@@ -76,6 +82,7 @@
 }
 
 /* 返回顶部 */
+
 #anchorNavigationExGoTop {
     position: fixed;
     right: 50px;
@@ -93,7 +100,9 @@
     color: #364149;
     border-radius: 5px;
 }
+
 /*对应官网皮肤主题颜色*/
+
 .book.color-theme-1 #anchorNavigationExGoTop {
     background-color: #111111;
     border-color: #7e888b;
@@ -125,12 +134,21 @@ a.anchor-navigation-ex-anchor i {
     font-size: 16px !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     position: relative;
 }
 
-h1:hover a.anchor-navigation-ex-anchor, h2:hover a.anchor-navigation-ex-anchor, h3:hover a.anchor-navigation-ex-anchor,
-h4:hover a.anchor-navigation-ex-anchor, h5:hover a.anchor-navigation-ex-anchor, h6:hover a.anchor-navigation-ex-anchor {
+h1:hover a.anchor-navigation-ex-anchor,
+h2:hover a.anchor-navigation-ex-anchor,
+h3:hover a.anchor-navigation-ex-anchor,
+h4:hover a.anchor-navigation-ex-anchor,
+h5:hover a.anchor-navigation-ex-anchor,
+h6:hover a.anchor-navigation-ex-anchor {
     display: inline-block;
 }
 
@@ -139,7 +157,8 @@ h4:hover a.anchor-navigation-ex-anchor, h5:hover a.anchor-navigation-ex-anchor, 
 }
 
 /* 页面内顶部固定导航  */
-#anchor-navigation-ex-pagetop-navbar{
+
+#anchor-navigation-ex-pagetop-navbar {
     border: 1px solid rgba(0, 0, 0, .07);
     border-radius: 1px;
     background-clip: padding-box;
@@ -180,6 +199,7 @@ h4:hover a.anchor-navigation-ex-anchor, h5:hover a.anchor-navigation-ex-anchor, 
 }
 
 /*对应官网皮肤主题颜色*/
+
 .book.color-theme-1 #anchor-navigation-ex-pagetop-navbar {
     background-color: #111111;
     border-color: #7e888b;
@@ -199,9 +219,3 @@ h4:hover a.anchor-navigation-ex-anchor, h5:hover a.anchor-navigation-ex-anchor, 
 .book.color-theme-2 #anchor-navigation-ex-pagetop-navbar ul li a {
     color: #c1c6d7;
 }
-
-
-
-
-
-
