@@ -6,7 +6,7 @@ require(["gitbook", "jquery"], function(gitbook, $) {
       var $list = $('#anchor-navigation-ex-navbar ul')
 
       $toolTip.on('click', function() {
-        $toolTip.toggleClass('fa-plus-circle fa-times-circle')
+        $toolTip.toggleClass('fa-plus-circle fa-minus-circle')
         $list.toggleClass('tooltip-show')
       })
     }
@@ -35,6 +35,7 @@ require(["gitbook", "jquery"], function(gitbook, $) {
 
     gitbook.events.bind('page.change', function (e) {
       var config = gitbook.state.config.pluginsConfig
+      console.log('change', e)
       handler(e, config)
     })
 })

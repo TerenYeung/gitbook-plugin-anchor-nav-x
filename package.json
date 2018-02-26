@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-anchor-nav-x",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "extend from gitbook-plugin-anchor-navigation-ex, add tooltipMode to display different UI, thanks for the author about zhuqiang,yuan1994",
   "main": "index.js",
   "scripts": {
